@@ -3,8 +3,8 @@
 // import { gsap } from "gsap";
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Share2, RefreshCw, } from 'lucide-react';
-import { Button } from "@/components/ui/button";
+// import { Heart, Share2, RefreshCw, } from 'lucide-react';
+// import { Button } from "@/components/ui/button";
 
 export default function Home(){
 
