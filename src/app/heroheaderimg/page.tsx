@@ -21,10 +21,16 @@ export default function Header(props:SectionNameProp) {
       </div>
       
       {/* Content Overlay */}
-      <div className="relative z-10 text-black">
+      {/* <div className="relative z-10 text-black">
         <h1 className="text-3xl font-bold">{props.sectionName}</h1>
         <p className="text-sm text-gray-700">
           <span className="font-semibold">Home</span> &gt; {props.sectionName}
+        </p>
+      </div> */}
+        <div className="relative flex flex-col items-center justify-center h-full">
+        <h1 className="text-3xl md:text-5xl font-bold text-black">{props.sectionName}</h1>
+        <p className="mt-2 text-sm md:text-base text-black">
+          <span className="text-black font-bold">Home</span> &gt; {props.sectionName}
         </p>
       </div>
     </div>
