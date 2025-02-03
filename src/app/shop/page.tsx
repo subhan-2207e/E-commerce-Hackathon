@@ -6,6 +6,7 @@ import { Trophy, Shield, Truck, Headphones } from 'lucide-react';
 import Header from '../heroheaderimg/page';
 
 
+
 export default function OurProducts() {
   const products = [
     { id: 1, name: 'Syltherine', price: 'Rp 2.500.000', oldPrice: 'Rp 3.500.000' , image: '/Images8.png', isNew: false ,discount: '30%' },
