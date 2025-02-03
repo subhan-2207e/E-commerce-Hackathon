@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Trash2 } from 'lucide-react'
 import { useState } from 'react'
-import Header from "../heroheaderimg/page"
+import { Header } from "../heroheaderimg/page"
 // import Featuressection from "../components/featuressection"
 
 const initialCartItems = [

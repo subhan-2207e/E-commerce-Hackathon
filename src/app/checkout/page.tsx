@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import Link from "next/link"
 import { Trophy, Shield, Truck, Headphones } from 'lucide-react';
-import Header from "../heroheaderimg/page"
+import { Header } from "../heroheaderimg/page"
 
 
 export default function Checkout() {

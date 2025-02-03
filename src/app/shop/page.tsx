@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import { Trophy, Shield, Truck, Headphones } from 'lucide-react';
-import Header from '../heroheaderimg/page';
+import { Header } from '../heroheaderimg/page';
 
 
 

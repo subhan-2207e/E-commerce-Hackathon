@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { MapPin, Phone, Clock } from 'lucide-react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { Trophy, Shield, Truck, Headphones } from 'lucide-react';
-import Header from "../heroheaderimg/page";
+import { Header } from "../heroheaderimg/page";
 
 
 const formFields = [
