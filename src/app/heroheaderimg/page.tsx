@@ -12,7 +12,7 @@ export default function Header(props:SectionNameProp) {
       {/* Background Image with Blur Effect */}
       <div className="absolute inset-0">
         <Image
-          src="/heroheaderimgg.png" // Replace with your actual image path
+          src="/heroheaderimg.png" // Replace with your actual image path
           alt="Background"
           layout="fill"
           objectFit="cover"
