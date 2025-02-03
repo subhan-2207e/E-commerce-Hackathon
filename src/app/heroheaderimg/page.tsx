@@ -1,10 +1,10 @@
 import Image from "next/image"
 
 interface HeaderProps {
-  sectionName: string
+  sectionName: string;
 }
 
-export function Header({ sectionName }: HeaderProps) {
+export function Header (props:HeaderProps)  {
   return (
     <div className="relative w-full h-60 md:h-64">
       {/* Background Image */}
@@ -21,9 +21,9 @@ export function Header({ sectionName }: HeaderProps) {
 
       {/* Content */}
       <div className="relative flex flex-col items-center justify-center h-full">
-        <h1 className="text-3xl md:text-5xl font-bold text-black">{sectionName}</h1>
+        <h1 className="text-3xl md:text-5xl font-bold text-black">{props.sectionName}</h1>
         <p className="mt-2 text-sm md:text-base text-black">
-          <span className="text-black font-bold">Home</span> &gt; {sectionName}
+          <span className="text-black font-bold">Home</span> &gt; {props.sectionName}
         </p>
       </div>
     </div>
