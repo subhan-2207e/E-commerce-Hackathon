@@ -16,7 +16,7 @@ export default function Header(props:SectionNameProp) {
           alt="Background"
           layout="fill"
           objectFit="cover"
-          className="blur-md"
+          // className="blur-md"
         />
       </div>
       
