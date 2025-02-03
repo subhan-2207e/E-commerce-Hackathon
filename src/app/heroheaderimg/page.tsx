@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-interface HeaderProps {
+interface SectionNameProp {
   sectionName: string;
 }
 
-export function Header (props:HeaderProps)  {
+const Header = (props:SectionNameProp) => {
   return (
     <div className="relative w-full h-60 md:h-64">
       {/* Background Image */}
@@ -29,4 +29,6 @@ export function Header (props:HeaderProps)  {
     </div>
   )
 }
+
+export default Header
 

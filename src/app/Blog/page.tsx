@@ -1,6 +1,6 @@
 import { Trophy, Shield, Truck, Headphones } from 'lucide-react';
 import Image from 'next/image';
-import { Header } from '../heroheaderimg/page';
+import Header from '../heroheaderimg/page';
 
 export default function BlogPage() {
 
